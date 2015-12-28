@@ -226,9 +226,6 @@ public class WheelView extends ScrollView {
         }
     }
 
-    /**
-     * 获取选中区域的边界
-     */
     int[] selectedAreaBorder;
 
     private int[] obtainSelectedAreaBorder() {
