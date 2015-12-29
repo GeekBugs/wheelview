@@ -32,7 +32,7 @@ dependencies {
 
 
 # 个人博客
-[http://f1reking.com/](http://f1reking/)
+[http://f1reking.com/](http://f1reking.com/)
 
 # 作者微博
 [F1ReKing](http://weibo.com/jaly6829197/)
