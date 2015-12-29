@@ -5,14 +5,14 @@
 # 效果预览
 ![](http://7xplt3.com1.z0.glb.clouddn.com/v4.gif)
 
-# 使用方法
-### build.gradle文件
+# How to Use
+### build.gradle
 ```java
 dependencies {
   compile 'com.f1reking.wheelview:wheelview:0.1'
 }
 ```
-### xml引用
+### xml
 ```js
       <com.f1reking.wheelview.WheelView
         android:id="@+id/wheelview"
@@ -22,8 +22,15 @@ dependencies {
         app:highColor="@color/colorPrimary"
         />
 ```
-### Java代码
+
+Remember put this for custom attribute usage
 ```
+  xmlns:app="http://schemas.android.com/apk/res-auto"
+```
+
+
+### Java Code
+```java
         wheelView = (WheelView) findViewById(R.id.wheelview); 
         wheelView.setOffset(1); //显示的前后个数（默认为1）
         wheelView.setItems(dataList); //加载list
@@ -31,10 +38,10 @@ dependencies {
 ```
 
 
-# 个人博客
+# Blog
 [http://f1reking.com/](http://f1reking.com/)
 
-# 作者微博
+# Weibo
 [F1ReKing](http://weibo.com/jaly6829197/)
 
 # License
