@@ -1,4 +1,10 @@
-> 由于一个项目需要，我从网上找了一个类似，并改写了其中的代码开源出来。
+#WheelView
+![License](https://img.shields.io/badge/license-Apache2.0-blue.svg)
+![SDK](https://img.shields.io/badge/sdk-16-orange.svg)
+![maven-central](https://img.shields.io/maven-central/v/com.f1reking.wheelview/wheelview.svg)  
+  
+  
+由于一个项目需要，我从网上找了一个类似，并改写了其中的代码开源出来。
 
 滚轮选择器效果
 
