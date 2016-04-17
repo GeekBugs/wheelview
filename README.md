@@ -15,7 +15,7 @@
 ### build.gradle
 ```java
 dependencies {
-  compile 'com.f1reking.wheelview:wheelview:0.1'
+  compile 'com.f1reking.library:wheelview:1.0'
 }
 ```
 ### xml
