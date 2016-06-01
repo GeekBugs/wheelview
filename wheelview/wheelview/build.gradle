@@ -2,11 +2,11 @@ apply plugin: 'com.android.library'
 apply plugin: 'com.github.dcendents.android-maven'
 apply plugin: 'com.jfrog.bintray'
 
-version = "0.1"
+version = "1.1"
 
 android {
 
-    resourcePrefix "hyh"
+    resourcePrefix "f1reking"
 
     compileSdkVersion 23
     buildToolsVersion "23.0.2"
@@ -26,14 +26,11 @@ android {
 }
 
 dependencies {
-    compile fileTree(dir: 'libs', include: ['*.jar'])
-    testCompile 'junit:junit:4.12'
-    compile 'com.android.support:appcompat-v7:23.1.1'
 }
 
-def siteUrl = 'https://github.com/F1ReKing/wheelviewr'   // 项目的主页
+def siteUrl = 'https://github.com/F1ReKing/wheelview'   // 项目的主页
 def gitUrl = 'git@github.com:F1ReKing/wheelview.git'   // Git仓库的url
-group = "com.f1reking.wheelview"            // Maven Group ID for the artifact，一般填你唯一的包名
+group = "com.f1reking.library"            // Maven Group ID for the artifact，一般填你唯一的包名
 install {
     repositories.mavenInstaller {
         // This generates POM.xml with proper parameters
