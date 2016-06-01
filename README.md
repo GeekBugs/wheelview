@@ -1,4 +1,10 @@
-> 由于一个项目需要，我从网上找了一个类似，并改写了其中的代码开源出来。
+#WheelView
+![License](https://img.shields.io/badge/license-Apache2.0-blue.svg)
+![SDK](https://img.shields.io/badge/sdk-16-orange.svg)
+[ ![Download](https://api.bintray.com/packages/f1reking/maven/wheelview/images/download.svg) ](https://bintray.com/f1reking/maven/wheelview/_latestVersion) 
+  
+  
+由于一个项目需要，我从网上找了一个类似，并改写了其中的代码开源出来。
 
 滚轮选择器效果
 
@@ -9,7 +15,7 @@
 ### build.gradle
 ```java
 dependencies {
-  compile 'com.f1reking.wheelview:wheelview:0.1'
+  compile 'com.f1reking.library:wheelview:1.1'
 }
 ```
 ### xml
