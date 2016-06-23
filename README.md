@@ -52,7 +52,7 @@ Remember put this for custom attribute usage
 
 # License
 ```
-Copyright [2016] [name of copyright F1ReKing]
+Copyright 2016 F1ReKing
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
