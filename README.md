@@ -46,7 +46,7 @@ Remember put this for custom attribute usage
 
 ## License
 
-    Copyright 2016 F1ReKing. http://F1ReKing.com
+    Copyright 2017 F1ReKing. http://F1ReKing.com
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
