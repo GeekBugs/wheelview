@@ -21,31 +21,32 @@ dependencies {
 ```
 ### xml
 ```js
-      <com.f1reking.wheelview.WheelView
-        android:id="@+id/wheelview"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="10dp"
-        app:highColor="@color/colorPrimary"
-        />
+<com.f1reking.wheelview.WheelView
+  android:id="@+id/wheelview"
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content"
+  android:layout_marginTop="10dp"
+  app:highColor="@color/colorPrimary"
+  />
 ```
 
 Remember put this for custom attribute usage
 ```
-  xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:app="http://schemas.android.com/apk/res-auto"
 ```
 
 ## 使用
 
 ```java
-        wheelView = (WheelView) findViewById(R.id.wheelview); 
-        wheelView.setOffset(1); //显示的前后个数（默认为1）
-        wheelView.setItems(dataList); //加载list
-        wheelView.setSeletion(0);// 启动后显示的位置
+wheelView = (WheelView) findViewById(R.id.wheelview);
+wheelView.setOffset(1); //显示的前后个数（默认为1）
+wheelView.setItems(dataList); //加载list
+wheelView.setSeletion(0);// 启动后显示的位置
 ```
 
 ## License
 
+```
     Copyright 2017 F1ReKing. http://F1ReKing.com
 
     Licensed under the Apache License, Version 2.0 (the "License");
@@ -59,4 +60,4 @@ Remember put this for custom attribute usage
     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
     See the License for the specific language governing permissions and
     limitations under the License.
-
+```
